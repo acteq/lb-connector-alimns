@@ -1,0 +1,33 @@
+{
+  "name": "lb-connector-alimns",
+  "version": "0.1.0",
+  "description": "Loopback connector module which allow to send sms via alimns",
+  "main": "index.js",
+  "keywords": [
+    "loopback",
+    "alimns",
+    "connector",
+    "templates"
+  ],
+  "author": "acte  <acte@foxmail.com> (http://acte.githu.io/)",
+  "license": "MIT",
+  "dependencies": {
+    "ali-mns": "^2.6.0",
+    "axios": "^0.16.1",
+    "lodash": "^3.10.1",
+    "md5": "^2.2.1",
+    "q": "^1.4.1",
+    "query-string": "^4.3.4"
+  },
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "loopback-datasource-juggler": "^2.44.0",
+    "mocha": "^2.0.1",
+    "rewire": "^2.1.2"
+  },
+  "homepage": "https://github.com/acteq/lb-connector-alimns",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acteq/lb-connector-alimns.git"
+  }
+}
